@@ -29,3 +29,4 @@ app.include_router(calendar_router, prefix=f"{settings.API_V1_STR}/calendar", ta
 # 추후 라우터들이 여기에 추가될 예정입니다
 # from app.api import some_router
 # app.include_router(some_router, prefix=settings.API_V1_STR) 
+## 
