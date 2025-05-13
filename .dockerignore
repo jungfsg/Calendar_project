@@ -1,0 +1,31 @@
+# Flutter 프로젝트 전체 제외
+Calender/
+
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.so
+
+# 개발 도구 관련
+.git
+.gitignore
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 문서 파일
+*.md
+!README.md
+
+# 기타
+.DS_Store
+.docker/
+docker-compose.override.yml 
