@@ -1,0 +1,28 @@
+# FastAPI 관련
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# 데이터베이스
+chromadb
+
+# HTTP 클라이언트
+httpx
+
+# OpenAI
+openai
+
+# 유틸리티
+python-dotenv
+prometheus-client
+loguru
+
+# 테스트 도구
+pytest
+
+# Google Calendar API
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client 
