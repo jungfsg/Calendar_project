@@ -29,8 +29,3 @@ app.include_router(calendar_router, prefix=f"{settings.API_V1_STR}/calendar", ta
 # 추후 라우터들이 여기에 추가될 예정입니다
 # from app.api import some_router
 # app.include_router(some_router, prefix=settings.API_V1_STR) 
-
-# 마운트 제대로 됐는지 확인
-# 확인
-# 깃헙 데스크탑이 잘 보고 있는지 확인
-# 마운트 재확인
