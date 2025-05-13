@@ -32,3 +32,4 @@ app.include_router(calendar_router, prefix=f"{settings.API_V1_STR}/calendar", ta
 
 # 마운트 제대로 됐는지 확인
 # 확인
+# 깃헙 데스크탑이 잘 보고 있는지 확인
