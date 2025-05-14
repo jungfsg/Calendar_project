@@ -1,6 +1,8 @@
 # Calendar Server
 
 FastAPI 기반의 캘린더 서버 애플리케이션입니다.
+플러터 코드는 다음 레포지토리를 참고해주세요.
+https://github.com/jungfsg/Calender
 
 ## 기능
 
