@@ -2,6 +2,27 @@
 
 이 문서는 서버와 Flutter 클라이언트의 설정 및 실행 방법을 안내합니다.
 
+
+## 0. 추가 라이브러리 설치
+
+```python
+import sys
+import subprocess
+
+# 패키지 설치
+subprocess.check_call([sys.executable, "-m", "pip", "install", "FlagEmbedding"])
+
+# 설치 후 다시 임포트해야 할 수 있음
+import importlib
+importlib.invalidate_caches()
+
+# 이제 패키지 사용 가능
+from FlagEmbedding import ...
+```
+
+
+
+
 ## 1. 프로젝트 클론
 
 ```bash
@@ -87,5 +108,3 @@ flutter doctor
 # 사용 가능한 디바이스 확인
 flutter devices
 ``` 
-
-# test
