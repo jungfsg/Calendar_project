@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     
     # ChromaDB 설정
     CHROMADB_HOST: str = "localhost"
-    CHROMADB_PORT: int = 8000
+    CHROMADB_PORT: int = 9000
 
     class Config:
         env_file = ".env"

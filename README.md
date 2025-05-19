@@ -4,6 +4,16 @@ FastAPI 기반의 캘린더 서버 애플리케이션입니다.
 플러터 코드는 다음 레포지토리를 참고해주세요.
 https://github.com/jungfsg/Calender
 
+## 실행 명령어
+```bash
+# 백엔드
+python run_chroma.py
+python -m uvicorn app.main:app --reload --port 8000
+
+# 플러터
+flutter run -d chrome
+```
+
 ## 기능
 
 - LLM을 활용한 텍스트 기반 일정 추출
