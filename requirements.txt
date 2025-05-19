@@ -1,24 +1,30 @@
-# FastAPI 관련
+# FastAPI related
 fastapi
 uvicorn[standard]
 pydantic
 pydantic-settings
 
-# 데이터베이스
+# Database
 chromadb
 
-# HTTP 클라이언트
+# HTTP client
 httpx
 
 # OpenAI
 openai
 
-# 유틸리티
+# LangChain
+langchain
+langchain-openai
+langchain-community
+langchain-core
+
+# Utilities
 python-dotenv
 prometheus-client
 loguru
 
-# 테스트 도구
+# Test tools
 pytest
 
 # Google Calendar API
